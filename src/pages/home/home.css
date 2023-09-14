@@ -1,0 +1,28 @@
+.titleContainer{
+    grid-row: 4;
+    grid-column: 2 / 5;
+    justify-self: flex-start;
+    color: aliceblue;
+}
+
+/* .subtitle{}
+
+.title{} */
+
+.welcomeText{
+    grid-row: 5 / 7;
+    grid-column: 2 / 6;
+    align-self: flex-start;
+    text-align: justify;
+    color: aliceblue;
+}
+
+.profilePic{
+    overflow: hidden;
+    align-self: center;
+    justify-self: center;
+    height: auto;
+    width: 90%;
+    grid-column: 6 / 10;
+    grid-row: 1 / 10;
+}

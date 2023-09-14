@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    max-width: 99.99vw;
+    overflow: hidden;
+}
+
+.layoutContainer{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #050505;
+    height: 99.99vh;
+}
+
+.navbarConteiner{
+    overflow: hidden;
+    list-style: none;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin-top: 1%;
+    grid-template-columns: repeat(10, 1fr);
+    width: 99%;
+    height: 10%;
+}
+
+.pageContainer{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 80%;
+    width: 99%;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+/* .footerContainer{} */

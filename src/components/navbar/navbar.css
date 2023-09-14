@@ -1,0 +1,106 @@
+.logoContainer{
+    height: 100%;
+    width: 90%;
+    border-radius: 10rem;
+    grid-column: 2;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.backgroundLogo{
+    height: 80%;
+    animation: logoTransparency;
+    mask: url(../../assets/images/logo.svg);
+    width: auto;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-position: center;
+}
+
+@keyframes logoTransparency {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }    
+}
+
+.logoImg{
+    height: 80%;
+    width: auto;
+}
+
+#topTop{
+    stroke: #FFFFFF;
+    transition-property: stroke;
+    transition-duration: 2s;
+}
+
+#i{
+    stroke: #FFFFFF;
+    transition-property: stroke;
+    transition-duration: 2s;
+}
+
+#z{
+    stroke: #FFFFFF;
+    transition-property: stroke;
+    transition-duration: 2s;
+}
+
+#bBottom{
+    stroke: #FFFFFF;
+    transition-property: stroke;
+    transition-duration: 2s;
+}
+
+#lTop{
+    fill: #FFFFFF;
+    transition-property: stroke;
+    transition-duration: 2s;
+}
+
+#lBottom{
+    fill: #FFFFFF;
+    transition-property: stroke;
+    transition-duration: 2s;
+}
+
+.strokePink{
+    stroke: #FF00A8 !important;
+}
+
+.strokeBlue{
+    stroke: #00A3FF !important;
+}
+
+.fillBlue{
+    fill: #00A3FF !important;
+}
+
+.fillPink{
+    fill: #FF00A8 !important;
+}
+
+
+.pagesContainer{
+    height: 100%;
+    width: 90%;
+    border-radius: 10rem;
+    grid-column: 6 / 10;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navPages{
+    font-size: 1.2rem;
+    justify-self: flex-end;
+}
